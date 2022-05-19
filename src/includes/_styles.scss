@@ -1,0 +1,99 @@
+// overrides de variables
+// @see https://getbootstrap.com/docs/4.0/getting-started/theming/#variable-defaults
+// Variables principales et les plus utilisées de Bootstrap
+
+//COLORS
+$white: #fff;
+$gray-100: #F1F1F1;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+ 
+$blue: #0d6efd;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #d63384;
+$red: #dc3545;
+$orange: #fd7e14;
+$yellow: #FFD347;
+$green: #198754;
+$teal: #20c997;
+$cyan: #0dcaf0;
+
+$primary: #354057;
+$secondary: $yellow;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $gray-900;
+
+$gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0));
+
+
+//PROJECT SETTINGS
+$body-bg: $dark;
+$body-color: $white;
+$body-text-align: null;
+$text-muted: $gray-600;
+
+$link-color: $primary;
+$link-decoration: underline;
+$link-shade-percentage: 20%;
+$link-hover-color: shift-color($link-color, $link-shade-percentage);
+$link-hover-decoration: null;
+
+$spacer: 1rem;
+$paragraph-margin-bottom: 1rem;
+
+$border-color: $gray-300;
+$border-radius: 50px;
+$border-radius-sm: 25px;
+$border-radius-lg: 50px;
+$border-radius-pill: 50rem;
+
+$box-shadow: 0 .5rem 1rem rgba($black, .15);
+$box-shadow-sm: 0 .125rem .25rem rgba($black, .075);
+$box-shadow-lg: 0 1rem 3rem rgba($black, .175);
+$box-shadow-inset: inset 0 1px 2px rgba($black, .075);
+
+
+//FONTS
+$font-family-sans-serif: 'Poppins', sans-serif;
+$font-family-monospace: 'Poppins', sans-serif;
+$font-size-base: 1rem; // Assumes the browser default, typically `16px`
+$font-size-sm: $font-size-base * .875;
+$font-size-lg: $font-size-base * 1.25;
+$small-font-size: .875em;
+
+$font-weight-lighter: 300;
+$font-weight-light: 300;
+$font-weight-normal: 500;
+$font-weight-bold: 700;
+$font-weight-bolder: 700;
+$font-weight-base: $font-weight-normal;
+
+$line-height-base: 1.5;
+$line-height-sm: 1.25;
+$line-height-lg: 2;
+
+$h1-font-size: $font-size-base * 2.5;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+
+$headings-margin-bottom: $spacer * .5;
+$headings-font-family: null;
+$headings-font-style: null;
+$headings-font-weight: $font-weight-bold;
+$headings-line-height: 1.2;
+$headings-color: null;

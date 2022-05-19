@@ -1,0 +1,39 @@
+{
+  "name": "example-sass-project",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "sass-prod": "npm run sass-compile && npm run prefixer",
+    "sass-compile": "sass ./src/main.scss:./public/assets/build/main.pre.css -q --color --no-source-map --style compressed",
+    "sass-watch-dev": "sass --watch ./src/main.scss:./public/assets/build/main.css --verbose --color",
+    "prefixer": "postcss ./public/assets/build/main.pre.css --use autoprefixer postcss-csso -o ./public/assets/build/main.css --no-map"
+  },
+  "browserslist": [
+    "> 10% and last 2 versions"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "css-loader": "^6.2.0",
+    "file-loader": "^6.2.0",
+    "postcss": "^8.4.12",
+    "postcss-loader": "^6.1.1",
+    "sass": "^1.49.11",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "stylus": "^0.55.0",
+    "stylus-loader": "^6.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gary-agency/example-sass-project.git"
+  },
+  "author": "gary-agency",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gary-agency/example-sass-project/issues"
+  },
+  "homepage": "https://github.com/gary-agency/example-sass-project#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

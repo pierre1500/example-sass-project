@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Steam</title>
+    <link href="./assets/build/main.css" rel="stylesheet">
+</head>
+<body>
+<nav>
+    <div>
+        <a href="index.html" class="d-block">
+            <img id="logo" src="./assets/images/logo.png" alt="Logo">
+        </a>
+        <img id="diamond" src="./assets/images/diam.png" alt="diamond"><br>
+        <img id="cadi" src="./assets/images/cadi.png" alt="cadi"><br>
+    </div>
+    <div>
+        <img id="download" src="./assets/images/telech.png" alt="download"><br>
+        <img id="param" src="./assets/images/param.png" alt="param"><br>
+        <img id="compte" src="./assets/images/compte.png" alt="compte">
+    </div>
+</nav>
+
+<main>
+    <div class="container">
+        <header>
+            <a href="index.html" class="d-block">
+                <img src="./assets/images/steam.png" alt="steam" id="logo-header">
+            </a>
+            <input id="search-bar" placeholder="Search..." type="search">
+            <img id="friends" src="./assets/images/amis.png" alt="friends">
+            <div id="navigation-jeux">
+                <ul id="ul-nav" class=" m-0 p-0">
+                    <li class="li-nav-m">
+                        <a href="fiche-produit.html" class="text-white">Votre magasin</a>
+                    </li>
+                    <li class="li-nav-m">
+                        Nouveautés
+                    </li>
+                    <li class="li-nav-m">
+                        Catégories
+                    </li>
+                    <li class="li-nav-m">
+                        Boutique des points
+                    </li>
+                    <li class="li-nav-m">
+                        Actualités
+                    </li>
+                    <li class="li-nav-m">
+                        <a href="formulaire.html" class="text-white">Créer un produit</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </div>
+
+    <div class="container-custom">  
+        <section class="container-lg mt-5">
+            <div class="max-800 m-auto text-center">
+                <h1>Postez votre produit sur Steam</h1>
+                <p>
+                    Nous nous assurons que notre platforme soit la plus “propre” possible, nous vérifions donc chaque produit posté sur Steam. Veuillez ne pas créer de produits à l’encontre de notre règlement.
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <div class="container-custom">
+        <section class="container py-5 section-form">
+            <div class="row row-cols-1 row-cols-lg-3">
+                <div class="col mb-5">
+                    <h2 class="h3">Informations Principales</h2>
+
+                    <div>
+                        <label for="name">Nom de jeu</label>
+                        <input type="text" placeholder="Nom du jeu">
+                    </div>
+                    <div>
+                        <label for="dev">Développeurs</label>
+                        <input type="text" placeholder="Développeurs">
+                    </div>
+                    <div>
+                        <label for="editeur">Editeurs</label>
+                        <input type="text" placeholder="Editeurs">
+                    </div>
+                    <div>
+                        <label for="franchise">Franchise(s)</label>
+                        <input type="text" placeholder="Franchise(s)">
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <h2 class="h3">Liens Externes</h2>
+
+                    <div>
+                        <label for="site">Site du jeu</label>
+                        <input type="text" placeholder="Site du jeu">
+                    </div>
+                    <div>
+                        <label for="forum">Forum du jeu</label>
+                        <input type="text" placeholder="Forum du jeu">
+                    </div>
+                    <div>
+                        <label for="stat">Stats du jeu</label>
+                        <input type="text" placeholder="Stats du jeu">
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <h2 class="h3">Informations Secondaires</h2>
+
+                    <div>
+                        <label for="type">Type du jeu</label>
+                        <input type="text" placeholder="Type du jeu">
+                    </div>
+                    <div>
+                        <label for="prix">Prix du jeu</label>
+                        <span><input type="text" placeholder="Prix du jeu">€</span>
+                    </div>
+                    <div class="mt-1 d-flex  align-items-center">
+                        <label for="plateforme">Plateformes</label>
+                        <div class="d-flex justify-content-around align-items-center text-center max-210 w-100">
+                            <div class="d-flex flex-column align-items-center">
+                                <input type="checkbox" name="pc">
+                                <label for="pc" class="small">PC</label>
+                            </div>
+                            <div class="d-flex flex-column align-items-center">
+                                <input type="checkbox" name="ps">
+                                <label for="ps" class="small">PS</label>
+                            </div>
+                            <div class="d-flex flex-column align-items-center">
+                                <input type="checkbox" name="xbox">
+                                <label for="xbox" class="small">Xbox</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <div class="btn btn-primary btn-lg">
+                    Soumettre
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+
+</main>
+   
+
+<script crossorigin="anonymous" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
